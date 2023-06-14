@@ -11,7 +11,8 @@ public class Bullet : MonoBehaviour
 
     private int _damage;
     private Transform _playerTransform;
-    private float _sqrMaxDistance; 
+    private float _sqrMaxDistance;
+    
     private void Start()
     {
         GetComponent<Rigidbody2D>().velocity = transform.right * _bulletSpeed;
