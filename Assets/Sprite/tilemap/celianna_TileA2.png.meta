@@ -137,7 +137,7 @@ TextureImporter:
         width: 37
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,6 +145,27 @@ TextureImporter:
       bones: []
       spriteID: 14289f254031244389e81bb973649274
       internalID: 31161854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_TileA2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e3bca54168b4a26883ada884ba054b
+      internalID: 2115977230
       vertices: []
       indices: 
       edges: []
@@ -160,6 +181,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      celianna_TileA2_1: 2115977230
       celianna_TileA2_0: 31161854
   spritePackingTag: 
   pSDRemoveMatte: 0

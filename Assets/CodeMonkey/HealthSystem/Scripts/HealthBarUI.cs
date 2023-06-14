@@ -59,7 +59,5 @@ namespace CodeMonkey.HealthSystemCM {
         private void OnDestroy() {
             healthSystem.OnHealthChanged -= HealthSystem_OnHealthChanged;
         }
-
     }
-
 }

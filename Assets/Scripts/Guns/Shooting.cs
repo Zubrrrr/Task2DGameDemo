@@ -1,13 +1,17 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using TMPro;
 
 public class Shooting : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     [SerializeField] private WeaponRecoil _weaponRecoil;
     [SerializeField] private SpriteChanger _spriteChanger;
-    [SerializeField] private float _nextFireTime = 0f;
+    [SerializeField] private BulletSpawner _bulletSpawner;
+    [SerializeField] private TextMeshProUGUI _ammoText;
+    [SerializeField] private int _maxAmmo;
 
+    private int _currentAmmo;
     private bool _isShooting = false;
 
     public void OnPointerDown(PointerEventData eventData)
@@ -20,9 +24,23 @@ public class Shooting : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         _isShooting = false;
     }
 
+    public void ReloadAmmo(int amount)
+    {
+        _currentAmmo += amount;
+        UpdateAmmoText();
+        SaveManager.SaveData(_currentAmmo);
+    }
+
+    private void Start()
+    {
+        _maxAmmo = SaveManager.LoadData<int>();
+        _currentAmmo = _maxAmmo;
+        UpdateAmmoText();
+    }
+
     private void Update()
     {
-        if (_isShooting && Time.time >= _nextFireTime)
+        if (_isShooting && _currentAmmo > 0)
         {
             Shoot();
         }
@@ -41,10 +59,33 @@ public class Shooting : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         if (_spriteChanger != null)
             _spriteChanger.StartChange();
 
-        // Создаем пулю на позиции firePoint
-        //Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        if (_bulletSpawner != null)
+        {
+            if (_bulletSpawner.Fire())
+            {
+                DecreaseAmmo();
+            }
+        }
+    }
 
-        // Дополнительная логика для стрельбы
-        // ...
+    private void DecreaseAmmo()
+    {
+        _currentAmmo--;
+        UpdateAmmoText();
+
+        if (_currentAmmo == 0)
+        {
+            _isShooting = false;
+        }
+
+        SaveManager.SaveData(_currentAmmo);
+    }
+
+    private void UpdateAmmoText()
+    {
+        if (_ammoText != null)
+        {
+            _ammoText.text = "" + _currentAmmo.ToString();
+        }
     }
 }

@@ -7,9 +7,9 @@ public class HealthPlayer : MonoBehaviour, IGetHealthSystem
 
     private HealthSystem _healthSystem;
 
-    public void Damage()
+    public void Damage(int damage)
     {
-        _healthSystem.Damage(5);
+        _healthSystem.Damage(damage);
     }
 
     public HealthSystem GetHealthSystem()
@@ -26,11 +26,5 @@ public class HealthPlayer : MonoBehaviour, IGetHealthSystem
     private void HealthSystem_OnDead(object sender, System.EventArgs e)
     {
         Destroy(gameObject);
-    }
-
-    private void OnMouseDown()
-    {
-        _healthSystem.Damage(5);
-        Debug.Log(_healthSystem);
     }
 }

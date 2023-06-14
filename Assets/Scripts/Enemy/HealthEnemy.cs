@@ -6,6 +6,7 @@ public class HealthEnemy : MonoBehaviour, IGetHealthSystem
     [SerializeField] private float _healthlevel;
 
     private HealthSystem _healthSystem;
+    private EnemyDropper _dropper;
 
     public void Damage(int damage)
     {
@@ -21,16 +22,17 @@ public class HealthEnemy : MonoBehaviour, IGetHealthSystem
     {
         _healthSystem = new HealthSystem(_healthlevel);
         _healthSystem.OnDead += HealthSystem_OnDead;
+
+        _dropper = GetComponent<EnemyDropper>();
     }
 
     private void HealthSystem_OnDead(object sender, System.EventArgs e)
     {
-        Destroy(gameObject);
-    }
+        if (_dropper != null)
+        {
+            _dropper.TryDropItems();
+        }
 
-    private void OnMouseDown()
-    {
-        _healthSystem.Damage(5);
-        Debug.Log(_healthSystem);
+        Destroy(gameObject);
     }
 }

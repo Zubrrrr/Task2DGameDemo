@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7572294703014686772}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5004251281792533094}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4850869464912851687}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3997192480978420000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8094735999623333863}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2136908345820216570}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,7 +198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2889995132736315250}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1377719061417629739}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4518700037982334768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3344135564614556340}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -325,7 +325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8651770111419511788}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -357,7 +357,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9040477649628182550}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,7 +389,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6215298882912755579}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 499551060402415241}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,7 +454,7 @@ GameObject:
   - component: {fileID: 8598046569825073339}
   - component: {fileID: 8598046569825073338}
   - component: {fileID: 4453151752351858073}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FootRight_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -517,7 +517,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 11
   m_Sprite: {fileID: -9148595311541827109, guid: eb12f7bfac0d77046905ee79ff5c9e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -547,8 +547,8 @@ MonoBehaviour:
   - {fileID: 4518700037982334768}
   - {fileID: 2136908345820216570}
   m_Bounds:
-    m_Center: {x: 0.000000029802322, y: -0.000000029802322, z: -0.0000000016587478}
-    m_Extent: {x: 0.21666667, y: 0.49999997, z: 5.551115e-17}
+    m_Center: {x: -0.0000002682209, y: -0.00000008940697, z: -0.0000000016587478}
+    m_Extent: {x: 0.21666649, y: 0.49999997, z: 5.551115e-17}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -563,7 +563,7 @@ GameObject:
   - component: {fileID: 8598046570216472761}
   - component: {fileID: 8598046570216472760}
   - component: {fileID: 900880184947900523}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FootRight_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -626,7 +626,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 9
   m_Sprite: {fileID: 8468823292800697166, guid: eb12f7bfac0d77046905ee79ff5c9e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -656,7 +656,7 @@ MonoBehaviour:
   - {fileID: 8651770111419511788}
   - {fileID: 7572294703014686772}
   m_Bounds:
-    m_Center: {x: 0.000000059604645, y: -0.0034500957, z: -0.0000000016587478}
+    m_Center: {x: 0.000000059604645, y: -0.0034501553, z: -0.0000000016587478}
     m_Extent: {x: 0.31666672, y: 0.5298833, z: 5.551115e-17}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 8598046570461837128}
   - component: {fileID: 8598046570461837131}
   - component: {fileID: 887109329122915795}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FootLeft_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -735,7 +735,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 8
   m_Sprite: {fileID: 8468823292800697166, guid: eb12f7bfac0d77046905ee79ff5c9e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -765,8 +765,8 @@ MonoBehaviour:
   - {fileID: 4850869464912851687}
   - {fileID: 3997192480978420000}
   m_Bounds:
-    m_Center: {x: 0.000000059604645, y: -0.003450036, z: -0.0000000016587478}
-    m_Extent: {x: 0.31666672, y: 0.5298833, z: 5.551115e-17}
+    m_Center: {x: -0.00000017881393, y: -0.0034501553, z: -0.0000000016587478}
+    m_Extent: {x: 0.31666648, y: 0.5298833, z: 5.551115e-17}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -781,7 +781,7 @@ GameObject:
   - component: {fileID: 8598046571522961214}
   - component: {fileID: 8598046571522961201}
   - component: {fileID: 8625437362133969106}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FootLeft_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -844,7 +844,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 9
   m_Sprite: {fileID: -9148595311541827109, guid: eb12f7bfac0d77046905ee79ff5c9e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -874,8 +874,8 @@ MonoBehaviour:
   - {fileID: 5004251281792533094}
   - {fileID: 6215298882912755579}
   m_Bounds:
-    m_Center: {x: 0.000000029802322, y: -0.00000011920929, z: -0.0000000016587478}
-    m_Extent: {x: 0.21666667, y: 0.5, z: 5.551115e-17}
+    m_Center: {x: -0.0000002682209, y: -0.00000011920929, z: -0.0000000016587478}
+    m_Extent: {x: 0.21666649, y: 0.5, z: 5.551115e-17}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -890,7 +890,7 @@ GameObject:
   - component: {fileID: 8598046571709699762}
   - component: {fileID: 8598046571709699765}
   - component: {fileID: 7501602167272001497}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -957,7 +957,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: 5945939484006371963, guid: eb12f7bfac0d77046905ee79ff5c9e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -986,7 +986,7 @@ MonoBehaviour:
   - {fileID: 499551060402415241}
   - {fileID: 1377719061417629739}
   m_Bounds:
-    m_Center: {x: 0.00000011920929, y: -0.0000333786, z: -0.0000000016587478}
+    m_Center: {x: 0.00000011920929, y: -0.000033468008, z: -0.0000000016587478}
     m_Extent: {x: 0.8499998, y: 0.4990333, z: 5.551115e-17}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -1001,7 +1001,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8598046571838605308}
   - component: {fileID: 6334088595646691029}
-  m_Layer: 0
+  - component: {fileID: 34087286}
+  - component: {fileID: 34087289}
+  - component: {fileID: 9223356558799705038}
+  m_Layer: 8
   m_Name: EnemyMutatedCockroach
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1035,12 +1038,62 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.8375551, y: 1.1013988}
-  m_Size: {x: 1.9951407, y: 1.1645079}
+  m_Offset: {x: 0.83755505, y: 0.7710292}
+  m_Size: {x: 1.9951407, y: 1.8252512}
   m_Direction: 1
+--- !u!114 &34087286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8598046571838605309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af5820a6b944b43d891f0270eea7a7bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthlevel: 100
+--- !u!114 &34087289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8598046571838605309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1875bd4880fb6414cb81d487d27ea375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dropItems:
+  - _itemPrefab: {fileID: 4005322594910140867, guid: dd5240d042c1f438d90e9179a6e3f51c, type: 3}
+    _dropChance: 1
+  - _itemPrefab: {fileID: 5718398453076205532, guid: a2766052bc5444aa79e26f1713d2a58c, type: 3}
+    _dropChance: 1
+--- !u!114 &9223356558799705038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8598046571838605309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e71cc14d8b71b4a9391274ffa2df82ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moveSpeed: 3
+  _stoppingDistance: 1
+  _attackDistance: 2
+  _detectionRadius: 13
+  _playerTag: Player
+  _minDamage: 10
+  _maxDamage: 20
+  _attackInterval: 1
 --- !u!1001 &2620087797961323675
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1048,13 +1101,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8598046571838605308}
     m_Modifications:
+    - target: {fileID: 6848739073341297851, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848739073373570981, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6848739073373570983, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
       propertyPath: getHealthSystemGameObject
       value: 
       objectReference: {fileID: 8598046571838605309}
+    - target: {fileID: 6848739073536652050, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6848739074368699834, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
       propertyPath: m_Name
       value: pfHealthBarUIWorldCanvas (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848739074368699834, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848739074368699837, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6848739074368699838, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
       propertyPath: m_Pivot.x
@@ -1114,7 +1187,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6848739074368699838, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.024695905
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6848739074368699838, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
       propertyPath: m_LocalRotation.w

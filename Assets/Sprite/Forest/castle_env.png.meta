@@ -137,7 +137,7 @@ TextureImporter:
         width: 129
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,6 +145,48 @@ TextureImporter:
       bones: []
       spriteID: 34e4af6ddc4fb4385868ce8d8d286d8f
       internalID: 1511198755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_env_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 465
+        width: 81
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6aa983c7bba43c78438caef06b09b1
+      internalID: 2090513790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_env_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 495
+        width: 180
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5eee2e14b7b240a1b40e5b5bd25bca5
+      internalID: -1586115367
       vertices: []
       indices: 
       edges: []
@@ -161,6 +203,8 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       castle_env_0: 1481647618
+      castle_env_2: -1586115367
+      castle_env_1: 2090513790
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

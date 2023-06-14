@@ -14,7 +14,6 @@ public class SpriteChanger : MonoBehaviour
         if (!gameObject.activeInHierarchy) return;
 
         _spriteRenderer.enabled = true;
-
         _timer += Time.deltaTime;
 
         if (_timer >= _changeInterval)
